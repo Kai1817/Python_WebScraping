@@ -181,25 +181,3 @@ for url in urls:
         f.write(response.content)
 
 
-
-
-
-
-""" max_length = max(len(Product_Name), len(Prices), len(Description), len(Reviews))
-    Product_Name = Product_Name[:max_length]
-    Prices = Prices[:max_length]
-    Description = Description[:max_length]
-    Reviews = Reviews[:max_length]
-
-    # Create DataFrame
-    data = {
-        'Product Name': Product_Name,
-        'Price': Prices,
-        'Description': Description,
-        'Reviews': Reviews
-    }
-    df = pd.DataFrame(data)
-
-    # Convert DataFrame to CSV
-    df.to_csv('flipkart_products.csv', index=False)
-    print("Data saved to flipkart_products.csv")"""
