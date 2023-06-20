@@ -14,7 +14,7 @@ def scrape_flipkart_product(goods_name):
     Description = []
     Reviews = []
 
-    for page in range(1,):  #Change the range to an appropriate number of pages from which you want to scrap datas.
+    for page in range(1,101):  #Change the range to an appropriate number of pages from which you want to scrap datas.
         try:
             url = f"https://www.flipkart.com/search?q={goods_name}&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=off&as=off&page={page}"
             r = requests.get(url)
