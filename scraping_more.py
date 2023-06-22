@@ -89,7 +89,7 @@ def scrape_flipkart_product(goods_name):
     Reviews = []
 
     page = 1
-    while True:
+    while True:       #until there would be an end to the number of pages,the scraping of datas will be continued.This method is more appropriate
         try:
             url = f"https://www.flipkart.com/search?q={goods_name}&otracker=search&otracker1=search&marketplace=FLIPKART&as-show=off&as=off&page={page}"
             r = requests.get(url)
