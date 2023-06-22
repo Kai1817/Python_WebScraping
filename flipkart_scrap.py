@@ -165,7 +165,7 @@ for i in range(2, 25):  #for the number of pages we want to scrap the data.
 
 df = pd.DataFrame({"Products": Product_Name, "Prices": Prices, "Description": Description, "Reviews": Reviews})
 
-df.to_csv("E:/python programs/Python_Project/Samsung_phones_above_30K.csv")
+df.to_csv("E:/python programs/Python_Project/Samsung_phones_above_30K.csv")  #create a csv file to store the imported data and show it in table form.
 
 print("Data scraping and CSV export completed successfully.")
 
