@@ -151,7 +151,10 @@ print(df)
 print()
 print("Scraping done.")
 
+#df.to_csv("E:/python programs/Python_Project/mobile_phones.csv") 
 
+"""incase you want to save the scrapped datas into a csv file,use the above code that is in the form of a comment.
+remove the comment tag # and specify the desired path you want to store the csv file in.Execute the code for results."""
 
 
 
