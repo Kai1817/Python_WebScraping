@@ -4,7 +4,7 @@ what the tool exactly does is if we give any user input of a product name,it wil
 datas of all the related products based on that product name and show us the result
 in the python console.
 
-The online website where the scrapping is done is flipkart.
+The online website over which scraping is done is flipkart.
 
 input- enter any flipkart product name.
 output - get results related to that product like(product_name,price,description,reviews)  """
