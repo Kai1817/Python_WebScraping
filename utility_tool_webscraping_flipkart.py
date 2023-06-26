@@ -107,7 +107,7 @@ If you want to save the product's details that you have got in the result
 in the form of a csv file then
 just remove the undermentioned comment tag over the line and execute the code."""
 
-# df.to_csv("E:/python programs/Python_Project/Samsung_phones_above_30K.csv") 
+# df.to_csv("E:/python programs/Python_Project/product_details.csv") 
 
 
 print("Scraping done.")
