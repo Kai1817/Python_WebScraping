@@ -153,5 +153,5 @@ print()
 """incase you want to save the results you have got in a csv file you can just remove the under mentioned comment tag
 and execute the code"""
 
-#df.to_csv("E:/python programs/Python_Project/Samsung_phones_above_30K.csv")
+#df.to_csv("E:/python programs/Python_Project/phone_details.csv")
 print("Scraping done.")
