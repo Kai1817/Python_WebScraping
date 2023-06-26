@@ -149,6 +149,9 @@ goods_name = input("Enter the product you want to search for: ")
 df = scrape_flipkart_product(goods_name)
 print(df)
 print()
+
+"""incase you want to save the results you have got in a csv file you can just remove the under mentioned comment tag
+and execute the code"""
+
+#df.to_csv("E:/python programs/Python_Project/Samsung_phones_above_30K.csv")
 print("Scraping done.")
-
-
