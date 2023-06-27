@@ -23,4 +23,4 @@ the tool will for sure scrap the datas of all necessary things related to the pr
 
 suppose there is missing reviews or description related to any product then the missing spaces will be automatically filled with 'Not available'.
 
-Note: web scraping cant be done from every website. There are privacy rules for some website such that we cant access it for webscraping.
+Note: web scraping can't be done from every website. There are privacy rules for some website such that we cant access it for webscraping.
