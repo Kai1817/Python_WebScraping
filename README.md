@@ -21,6 +21,6 @@ The file  "utility_tool_webscraping_flipkart.py"  is an automated tool that i ha
 What this tool basicaly does is,if we take user input as any product name lets say 'shoes' or 't-shirts men' or any product available in flipkart,
 the tool will for sure scrap the datas of all necessary things related to the product.The necessary things like product name,price,description and Reviews.
 
-suppose there is missing reviews or description related to any product then the missing spaces will be automatically filled with 'Not available'.
+suppose there are missing reviews or description related to any product,then the missing spaces will be automatically filled with 'Not available'.
 
 Note: web scraping can't be done from every website. There are privacy rules for some website such that we cant access it for webscraping.
