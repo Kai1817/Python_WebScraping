@@ -68,6 +68,7 @@ try:
     soup = BeautifulSoup(r.text,'html.parser')
     particular = soup.find('div',class_ = "_1YokD2 _3Mn1Gg")
 
+    #name_of_products
     n_o_p = particular.find_all('div',class_ = '_4rR01T')  #getting the name of the products only and adding it in an 
     for i in n_o_p:                                       #empty list Product_Name,which will be easy for us to sort the data.
         n = i.text                                
@@ -98,6 +99,7 @@ try:
 
     print()
 
+    #original_product_review
     o_p_r = particular.find_all('div','_3LWZlK')    #getting the reviews of the product and sorting it in an empty list
     for i in o_p_r:                                 # of Reviews 
         n = i.text
